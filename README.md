@@ -20,15 +20,16 @@
 
 ## Overview
 
-_**CommandBlog** is a Chat App web application build with privacy and security in mind. Sign-up with your e-mail and start sharing messages with your friends. Create group chats with your friends in a secure and private enviroment. This can be very useful when dealing with confidential information._
+_**CommandBlog** is a Blog web application build with privacy and security in mind. 
+Sign-up with your e-mail and start sharing with the world._
   
 
 <br>
 
 ## MVP
 
-_**CommandBlog** Application allow the User to sign-up using their personal email and password.
-After the User has been authenticated he or she can start sending messages to other Users._
+_**CommandBlog** An user should be able to signup using a personal email and password.
+After the user has succesfully created an acccount, the user can create and share new articles._
 
 <br>
 
@@ -38,7 +39,6 @@ After the User has been authenticated he or she can start sending messages to ot
 - _Create front-end Full CRUD using ReactJS._
 - _Style front-end using CSS Grid, Flexbox and Semantic UI._
 - _Implement Authentication for the Users._
-- _._
 
 <br>
 
@@ -80,8 +80,8 @@ After the User has been authenticated he or she can start sending messages to ot
 
 > Structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
 
-![Dummy Link](https://res.cloudinary.com/abetavarez/image/upload/v1591712044/Screen_Shot_2020-06-09_at_10.13.54_AM_don3fi.png)
-- Mobile Resource Index
+![Dummy Link](https://res.cloudinary.com/abetavarez/image/upload/v1591740031/Screen_Shot_2020-06-09_at_5.42.05_PM_n8bumn.png)
+- Main Components
 
 #### Component Hierarchy
 
@@ -95,9 +95,20 @@ src
       |__ graphics
       |__ images
       |__ mockups
+      
 |__ components/
       |__ Header.jsx
+      |__ Main.jsx
+      |__ Footer.jsx
+      |__ shared/
+        |__ Articles.jsx
+        |__ Caterories.jsx
+        |__ Article.jsx
+        |__ Category.jsx
+|__ App.js
+
 |__ services/
+
 
 ```
 
@@ -108,9 +119,9 @@ src
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
+|     Main     |   class    |   n   |   n   | _The main will provide a link to each of the pages._       |
+|   Articles   |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
+|   Article    | functional |   n   |   y   | _The cards will render the post info via props._                 |
 |    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
 
 #### Component Estimates
