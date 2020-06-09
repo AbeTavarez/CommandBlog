@@ -70,19 +70,10 @@ After the User has been authenticated he or she can start sending messages to ot
 ![Dummy Link](https://res.cloudinary.com/abetavarez/image/upload/v1591740029/Screen_Shot_2020-06-09_at_5.42.21_PM_qx0aqr.png)
 - Wireframe
 
-![Dummy Link](https://res.cloudinary.com/abetavarez/image/upload/v1591709619/Screen_Shot_2020-06-09_at_9.33.19_AM_odi00j.png)
-- Desktop Landing
-
-![Dummy Link](https://res.cloudinary.com/abetavarez/image/upload/v1591709132/Screen_Shot_2020-06-07_at_10.43.20_PM_wqisxj.png)
-- App Flowchart
-
-![Dummy Link](url)
-- Resource Show
-
-![Dummy Link](url)
+![Dummy Link](https://res.cloudinary.com/abetavarez/image/upload/v1591740020/Screen_Shot_2020-06-09_at_5.59.38_PM_qav1pc.png)
 - Tablet Resource Index
 
-![Dummy Link](url)
+![Dummy Link](https://res.cloudinary.com/abetavarez/image/upload/v1591740018/Screen_Shot_2020-06-09_at_5.59.51_PM_eeozod.png)
 - Mobile Resource Index
 
 #### Component Tree
