@@ -151,7 +151,7 @@ src
 
 ## Post-MVP
 
-> - _Add error handeling on the backend._
+> - _Add error handling on the backend._
 > - _Add test to the frontend._
 > - _._
 
